@@ -12,7 +12,7 @@ class TestModule(unittest.TestCase):
     self.assertEqual(add_numbers(2, 2), 5)
   
   def test_login(self):
-    self.assertEqual(login(), 2)
+    self.assertEqual(login(),2)
 
 
 if __name__ == '__main__':
